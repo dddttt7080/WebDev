@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap');
+
+header {
+    margin-bottom: 64px;
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(51, 47, 47);
+    margin: 12px 0;
+}
+
+
+
+header p {
+    margin-bottom: 36px;
+}
+
+#description {
+   margin-bottom: 0px; 
+}
+
+a {
+    border: 1px solid rgb(167, 1, 78);
+    padding: 12px 48px;
+    background-color: rgb(167, 1, 78);
+    color: white;
+    display: inline-block;
+    margin: 12px 0px;
+    font-size: 24px;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: rgb(180, 12, 90);
+}
+
+ol {
+    list-style: none;
+    width: 500px;
+    margin: 36px auto 0 auto;
+    padding: 0px;
+}
+
+
+li {
+    padding: 16px;
+    background-color: rgb(223, 132, 124);
+    border-radius: 6px;
+    margin: 5%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+h2 {
+    color: rgb(78, 13, 5);
+    font-family: 'Oswald', sans-serif;
+}
+
+main p {    /* 결합자 */
+    margin: 12px;
+    color: rgb(71, 29, 22);
+}
+
+.daily-goal {   /* 클래스 */
+    margin: 12px;
+    color: rgb(71, 29, 22);
+}
+
+/*결합자와 클래스 동시에 적용하면 클래스가 우선적용됨. 클래스 정의는 ., id 정의는 # */
+
+
+/*hightlight-goal 클래스를 지정하여 특정 항목에만 서식 지정*/
+.highlight-goal {
+    background-color: rgb(222, 77, 64);
+}
